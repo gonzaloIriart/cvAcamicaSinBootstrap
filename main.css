@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+i {
+    color: black;
+}
+
+h2 {
+    font-size: 30px;
+    margin-left: 3%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.navbar {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.navbar a {
+    font-size: 17px;
+    padding: 14px 16px;
+    color: #f2f2f2;
+    text-decoration: none;
+    text-align: center;
+    border-left: solid 1px white;
+    float: left;
+}
+
+.cabecera {
+    margin-left: 5vw;
+    height: 10vh;
+    width: 60%;
+}
+
+.descripcion {
+    margin-left: 9vw;
+    margin-top: 5vh;
+    width: 60%;
+    float: left;
+}
+
+.descripcion h3 {
+    font-size: 17px;
+}
+
+.descripcion p {
+    margin-top: 1vh;
+    margin-left: 2%;
+}
+
+.iconos-sociales {
+    margin-left: 9vw;
+    margin-top: 5vh;
+    float: left;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.iconos-sociales i:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    color: #c8d6e5;
+}
+
+.cabecera-titulo {
+    margin: 0px;
+    padding: 0px;
+    font-size: 35px;
+}
+
+.cabecera-subtitulo {
+    font-size: 20px;
+}
+
+.sobre-mi {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+.sobre-mi-tarjeta {
+    position: absolute;
+    top: 30vh;
+    left: 15%;
+    color: white;
+    width: 70%;
+    background: black;
+    z-index: 2;
+}
+
+.img-tarjeta {
+    margin: 3%;
+    width: 27%;
+    float: left;
+    border-right: 1px solid white;
+}
+
+.texto-tarjeta {
+    margin-top: 10vh;
+    margin-left: 30%;
+    width: 70%;
+    line-height: 40px;
+}
+
+.columna-nombres {
+    margin-left: 3%;
+    width: 27%;
+    float: left;
+}
+
+.columna-valores {
+    margin-left: 5%;
+    width: 55%;
+    float: left;
+}
+
+.sobre-mi-top {
+    height: 40vh;
+    z-index: 1;
+    background-color: #54a0ff;
+}
+
+.sobre-mi-bottom {
+    height: 60vh;
+    background-color: bisque;
+    z-index: 1;
+}
+
+.educacion {
+    height: 70vh;
+    width: 100%;
+    background-color: bisque;
+    float: left;
+    line-height: 40px;
+}
+
+.item-educacion {
+    margin-left: 5%;
+}
+
+.item-educacion p {
+    margin-left: 2%;
+}
+
+.experiencia-laboral {
+    height: 50vh;
+    width: 100%;
+    background-color: bisque;
+    float: left;
+    line-height: 30px;
+}
+
+.experiencia-laboral h3 {
+    margin-top: 6vh;
+    margin-left: 5%;
+}
+
+.experiencia-laboral p {
+    margin-top: 3vh;
+    margin-left: 7%;
+}
+
+.portafolio {
+    height: 50vh;
+    width: 100%;
+    background-color: #55efc4;
+    float: left;
+}
+
+.item-proyecto {
+    margin: 2%;
+    width: 84px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+}
+
+.portafolio img {
+    width: 84px;
+    height: 84px;
+    clear: both;
+}
+
+.portafolio a {
+    text-decoration: none;
+}
+
+.portafolio p {
+    padding: 3%;
+}
